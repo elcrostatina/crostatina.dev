@@ -1,0 +1,110 @@
+body {
+    background-color: #111;
+    color: #fff;
+    font-family: 'Fira Code', monospace;
+}
+
+h1 {
+    font-size: 65px;
+    font-weight: bold;
+}
+
+a {
+    text-decoration: none;
+}
+
+.github {
+    margin-left: 10px;
+    color: aliceblue
+}
+
+.github:hover {
+    color: #888888
+}
+
+.r00tmi {
+    color: #058028
+}
+
+.r00tmi:hover {
+    color: #04591e
+}
+
+.pullapp {
+    color: #c8003d
+}
+
+.pullapp:hover {
+    color: #59041b
+}
+
+.webstack {
+    color: #0082c8
+}
+
+.webstack:hover {
+    color: #045659
+}
+
+.async {
+    color: #d676f8
+}
+
+.async:hover {
+    color: #e45ff1
+}
+
+.linkedin {
+    color: #008cff;
+}
+
+.linkedin {
+    color: #015aa2;
+}
+
+.telegram {
+    margin-left: 10px;
+    color: #009dff;
+}
+
+.telegram:hover {
+    color: #0077bd;
+}
+
+.custom-card {
+    width: 100%;
+    height: 150px;
+    border-radius:30px;
+    padding: 30px;
+    background-color: #202022;
+    /*transition: border-color 2s ease;*/
+    transition: transform .2s; /* Animation */
+    margin-top: 20px;
+}
+
+.custom-card a {
+    color: white;
+}
+
+.custom-card p {
+    margin: 0;
+    color: white;
+}
+
+.custom-card:hover {
+    border: 1px solid #CD3D73;
+    transform: scale(1.05)
+}
+
+.list-group-item {
+    background-color: #202022!important;
+    border: none!important;
+    color: white!important;
+    -webkit-transition: background-color 400ms linear;
+    -ms-transition: background-color 400ms linear;
+    transition: background-color 400ms linear;
+}
+
+.list-group-item:hover {
+    background-color: #464649 !important;
+}
